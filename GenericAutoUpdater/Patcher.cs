@@ -1,5 +1,6 @@
-﻿using GenericAutoUpdater.ExceptionHandler;
-using GenericAutoUpdater.Resources.TextResources;
+﻿using GenericAutoUpdater.UI.Screens;
+using StandardUpdaterLib.ExceptionHandler;
+using StandardUpdaterLib.Resources.TextResources;
 using System;
 using System.Security.AccessControl;
 using System.Security.Principal;
@@ -41,7 +42,8 @@ namespace GenericAutoUpdater {
                     Application.Run(new PatcherMainWindow());
                 }
                 catch (Exception ex) {
-                    Handler.Handle(ex);
+                    Handler handler = new Handler(new WinformsErrorDisplay());
+                    handler.Handle(ex);
                 }
                 finally {
                     if (hasHandle)

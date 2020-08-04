@@ -49,7 +49,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\BinaryResources\icon.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -74,40 +75,15 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Downloaders\HttpClientDownloader.cs" />
-    <Compile Include="Downloaders\IDownloader.cs" />
-    <Compile Include="Engine\IPatcherEngine.cs" />
-    <Compile Include="Engine\PatcherEngine.cs" />
-    <Compile Include="ExceptionHandler\Exceptions\DataTamperedException.cs" />
-    <Compile Include="ExceptionHandler\Handler.cs" />
-    <Compile Include="FileSystem\FileMetadata.cs" />
-    <Compile Include="FileSystem\FileSystemExplorer.cs" />
-    <Compile Include="FileSystem\IFileMetadata.cs" />
-    <Compile Include="Hash\IHasher.cs" />
-    <Compile Include="Hash\Md5Hasher.cs" />
-    <Compile Include="Resources\Configs\FileSystemExplorerConfigs.cs" />
-    <Compile Include="Resources\TextResources\ErrorHandlerResources.cs" />
-    <Compile Include="Resources\TextResources\DownloaderResources.cs" />
-    <Compile Include="UI\Wrappers\IWidgetWrapper.cs" />
-    <Compile Include="UI\Wrappers\LabelWrapper.cs" />
-    <Compile Include="UI\Wrappers\ProgressBarWrapper.cs" />
-    <Compile Include="Resources\Utils.cs" />
+    <Compile Include="Patcher.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\Screens\PatcherMainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\Screens\PatcherMainWindow.Designer.cs">
       <DependentUpon>PatcherMainWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Patcher.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resources\Configs\EngineConfigs.cs" />
-    <Compile Include="Resources\Configs\DownloaderConfigs.cs" />
-    <Compile Include="Resources\TextResources\MainWindowResources.cs" />
-    <Compile Include="Resources\TextResources\PatcherEngineResources.cs" />
-    <Compile Include="UI\ProgressiveWidgetsEnum.cs" />
-    <EmbeddedResource Include="UI\Screens\PatcherMainWindow.resx">
-      <DependentUpon>PatcherMainWindow.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="UI\Screens\WinformsErrorDisplay.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -118,6 +94,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UI\Screens\PatcherMainWindow.resx">
+      <DependentUpon>PatcherMainWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -145,7 +124,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\BinaryResources\icon.ico" />
+    <ProjectReference Include="..\StandardUpdaterLib\StandardUpdaterLib.csproj">
+      <Project>{aa7d259f-36e7-45d3-ab90-38a841dc23ce}</Project>
+      <Name>StandardUpdaterLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

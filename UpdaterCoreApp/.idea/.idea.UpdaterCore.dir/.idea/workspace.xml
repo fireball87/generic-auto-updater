@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02ed8311-bfc7-4bfd-a773-46b67da1a53a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Downloaders/HttpClientDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Downloaders/HttpClientDownloader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Downloaders/IDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Downloaders/IDownloader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Engine/IPatcherEngine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Engine/IPatcherEngine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Engine/PatcherEngine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Engine/PatcherEngine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/ExceptionHandler/Exceptions/DataTamperedException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/ExceptionHandler/Exceptions/DataTamperedException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/ExceptionHandler/Handler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/ExceptionHandler/Handler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/FileSystem/FileMetadata.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/FileSystem/FileMetadata.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/FileSystem/FileSystemExplorer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/FileSystem/FileSystemExplorer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/FileSystem/IFileMetadata.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/FileSystem/IFileMetadata.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/GenericAutoUpdater.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/GenericAutoUpdater.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Hash/IHasher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Hash/IHasher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Hash/Md5Hasher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Hash/Md5Hasher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Patcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Patcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Properties/Resources.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Properties/Resources.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Properties/Resources.resx" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Properties/Resources.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Properties/Settings.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Properties/Settings.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Properties/Settings.settings" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Properties/Settings.settings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/Configs/DownloaderConfigs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/Configs/DownloaderConfigs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/Configs/EngineConfigs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/Configs/EngineConfigs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/Configs/FileSystemExplorerConfigs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/Configs/FileSystemExplorerConfigs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/TextResources/DownloaderResources.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/TextResources/DownloaderResources.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/TextResources/ErrorHandlerResources.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/TextResources/ErrorHandlerResources.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/TextResources/MainWindowResources.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/TextResources/MainWindowResources.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/TextResources/PatcherEngineResources.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/TextResources/PatcherEngineResources.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/Utils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/Resources/Utils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/UI/ProgressiveWidgetsEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/UI/ProgressiveWidgetsEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Screens/PatcherMainWindow.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Screens/PatcherMainWindow.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Screens/PatcherMainWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Screens/PatcherMainWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Screens/PatcherMainWindow.resx" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Screens/PatcherMainWindow.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Wrappers/IWidgetWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Wrappers/IWidgetWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Wrappers/LabelWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Wrappers/LabelWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Wrappers/ProgressBarWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/UI/Wrappers/ProgressBarWrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GenericAutoUpdater/app.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericAutoUpdater/app.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests/DownloaderTests/HttpClientDownloaderTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests/DownloaderTests/HttpClientDownloaderTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests/DownloaderTests/HttpClientDownloaderTestsEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests/DownloaderTests/HttpClientDownloaderTestsEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests/DownloaderTests/Server/IBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests/DownloaderTests/Server/IBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests/DownloaderTests/Server/InconsistentBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests/DownloaderTests/Server/InconsistentBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests/DownloaderTests/Server/LatencyBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests/DownloaderTests/Server/LatencyBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests/DownloaderTests/Server/NormalBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests/DownloaderTests/Server/NormalBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests/DownloaderTests/Server/TimeoutBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests/DownloaderTests/Server/TimeoutBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests/Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests/Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tests/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/../Tests/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/Generic Auto-Patcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/Generic Auto-Patcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/Tests.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UpdaterCore.csproj" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fa7JSFdyvL6AlblnFgpGpnJNHE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02ed8311-bfc7-4bfd-a773-46b67da1a53a" name="Default Changelist" comment="" />
+      <created>1596444277584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596444277584</updated>
+      <workItem from="1596444279999" duration="359000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

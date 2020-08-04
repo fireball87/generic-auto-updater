@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StandardUpdaterLib\StandardUpdaterLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UI\Screens\PatcherMainWindow.Designer.cs">
+      <DependentUpon>PatcherMainWindow.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="UI\Screens\PatcherMainWindow.resx">
+      <DependentUpon>PatcherMainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
